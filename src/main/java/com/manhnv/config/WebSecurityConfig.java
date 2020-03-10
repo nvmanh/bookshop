@@ -80,6 +80,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 						"/api/v1/book/with-author",
 						"/api/v1/create-data",
 						"/api/v1/error",
+						"/api/v1/lang",
 						"/error"
 						)
 				.permitAll().

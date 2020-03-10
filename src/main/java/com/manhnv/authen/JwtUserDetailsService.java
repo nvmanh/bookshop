@@ -27,7 +27,6 @@ public class JwtUserDetailsService implements UserDetailsService {
 		if (TextUtils.isEmpty(username) || !userRepository.existsByName(username)) {
 			throw new UsernameNotFoundException("User not found with username: " + username);
 		}
-
 		com.manhnv.entity.User user = userRepository.findByName(username);
 		return new User(user.getName(), user.getPassword(), new ArrayList<>());
 	}

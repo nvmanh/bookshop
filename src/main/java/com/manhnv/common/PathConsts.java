@@ -59,6 +59,7 @@ public class PathConsts {
 	private static final String ERROR = "/error";
 	private static final String API_ERROR = "/error";
 	private static final String CREATE_SAMPLE = "/create-data";
+	private static final String CURRENT_LANGUAGE = "/lang";
 
 	public class v1 {
 		// start authenticate
@@ -111,5 +112,7 @@ public class PathConsts {
 		public static final String CLEAR_CACHE = V1 + "/clear-cache";
 		
 		public static final String CREATE_SAMPLE = V1 + PathConsts.CREATE_SAMPLE;
+		
+		public static final String CURRENT_LANGUAGE = V1 + PathConsts.CURRENT_LANGUAGE;
 	}
 }

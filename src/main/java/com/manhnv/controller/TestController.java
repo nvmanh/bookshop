@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,6 +18,7 @@ import com.manhnv.book.AuthorRepository;
 import com.manhnv.book.BookRepository;
 import com.manhnv.common.Const;
 import com.manhnv.common.PathConsts;
+import com.manhnv.config.Translator;
 import com.manhnv.entity.Author;
 import com.manhnv.entity.Book;
 import com.manhnv.entity.Privilege;
@@ -137,10 +139,12 @@ public class TestController {
 		bookRepository.save(book1);
 		Book book2 = new Book("Song", xq, new BigDecimal(27.23));
 		bookRepository.save(book2);
-		bookRepository.save(new Book("The Hunger Games (The Hunger Games, #1)", suzunne, new BigDecimal(10003.5), Status.DELETED));
-		bookRepository.save(new Book("Catching Fire (The Hunger Games, #2)", suzunne, new BigDecimal(10003.5), Status.OUTSTOCK));
-		bookRepository
-				.save(new Book("Harry Potter Series Box Set (Harry Potter, #1-7)", rowling, new BigDecimal(10003.5), Status.REMOVED));
+		bookRepository.save(
+				new Book("The Hunger Games (The Hunger Games, #1)", suzunne, new BigDecimal(10003.5), Status.DELETED));
+		bookRepository.save(
+				new Book("Catching Fire (The Hunger Games, #2)", suzunne, new BigDecimal(10003.5), Status.OUTSTOCK));
+		bookRepository.save(new Book("Harry Potter Series Box Set (Harry Potter, #1-7)", rowling,
+				new BigDecimal(10003.5), Status.REMOVED));
 		bookRepository.save(new Book("Mockingjay (The Hunger Games, #3)", suzunne, new BigDecimal(10003.5)));
 		bookRepository.save(
 				new Book("Harry Potter and the Sorcerer's Stone (Harry Potter, #1)", rowling, new BigDecimal(10003.5)));
@@ -154,9 +158,16 @@ public class TestController {
 		bookRepository.save(new Book("Divergent (Divergent, #1)", roth, new BigDecimal(10003.5)));
 		bookRepository.save(new Book("Eclipse (Twilight, #3)", meyer, new BigDecimal(10003.5)));
 		bookRepository.save(new Book("New Moon (Twilight, #2)", meyer, new BigDecimal(10003.5)));
-		JwtResponse<Object> jwtResponse = new JwtResponse<Object>().onSuccess(Const.CREATE_SAMPLE_SUCCESS, PathConsts.v1.CREATE_SAMPLE);
+		JwtResponse<Object> jwtResponse = new JwtResponse<Object>().onSuccess(Const.CREATE_SAMPLE_SUCCESS,
+				PathConsts.v1.CREATE_SAMPLE);
 		jwtResponse.setMessage(Const.CREATE_SAMPLE_SUCCESS);
 		return jwtResponse;
+	}
+
+	@GetMapping(path = PathConsts.v1.CURRENT_LANGUAGE)
+	@ResponseBody
+	public JwtResponse<Object> checkLanguage() {
+		return new JwtResponse<Object>().onSuccess(Translator.toLocale("welcome"), PathConsts.v1.CURRENT_LANGUAGE);
 	}
 
 	@Transactional

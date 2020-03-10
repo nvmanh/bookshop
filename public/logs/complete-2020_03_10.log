@@ -1,0 +1,8 @@
+2020-03-10T08:16:28.206+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 22204 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-10T08:16:28.211+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-10T08:16:28.213+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-10T08:16:40.531+0700 INFO Started BookControllerTest in 12.712 seconds (JVM running for 16.666)
+2020-03-10T08:16:43.984+0700 INFO Starting DTOConverterTest on OMS-PC-232 with PID 22204 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-10T08:16:43.986+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-10T08:16:43.986+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-10T08:16:49.933+0700 INFO Started DTOConverterTest in 6.059 seconds (JVM running for 26.069)

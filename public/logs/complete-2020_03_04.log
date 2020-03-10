@@ -1,0 +1,765 @@
+2020-03-04T08:14:45.458+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:14:45.459+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:14:45.459+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:14:49.112+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:14:49.112+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:14:49.660+0700 INFO Started StartBookApplication in 4.25 seconds (JVM running for 145234.433)
+2020-03-04T08:15:48.215+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:15:48.216+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:15:48.216+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:15:51.198+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:15:51.198+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:15:51.828+0700 INFO Started StartBookApplication in 3.646 seconds (JVM running for 145296.601)
+2020-03-04T08:16:14.578+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:16:14.578+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:16:14.579+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:16:18.424+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:16:18.424+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:16:18.425+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:16:21.241+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:16:21.241+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:16:21.640+0700 INFO Started StartBookApplication in 3.233 seconds (JVM running for 145326.413)
+2020-03-04T08:18:02.166+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:18:02.167+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:18:02.167+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:18:05.258+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:18:05.258+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:18:05.762+0700 INFO Started StartBookApplication in 3.63 seconds (JVM running for 145430.536)
+2020-03-04T08:18:22.140+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:18:22.141+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:18:22.141+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:18:25.028+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:18:25.028+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:18:40.611+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:18:40.612+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:18:40.612+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:18:43.700+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:18:43.700+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:18:44.147+0700 INFO Started StartBookApplication in 3.576 seconds (JVM running for 145468.92)
+2020-03-04T08:19:29.866+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:19:29.867+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:19:29.867+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:19:32.779+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:19:32.779+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:19:33.167+0700 INFO Started StartBookApplication in 3.333 seconds (JVM running for 145517.941)
+2020-03-04T08:20:48.468+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:20:48.469+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:20:48.469+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:20:51.306+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:20:51.306+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:20:51.878+0700 INFO Started StartBookApplication in 3.459 seconds (JVM running for 145596.652)
+2020-03-04T08:22:48.495+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:22:48.496+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:22:48.496+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:22:51.332+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:22:51.332+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:22:51.727+0700 INFO Started StartBookApplication in 3.265 seconds (JVM running for 145716.501)
+2020-03-04T08:23:03.882+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:23:03.883+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:23:03.883+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:23:06.766+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:23:06.766+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:23:07.185+0700 INFO Started StartBookApplication in 3.341 seconds (JVM running for 145731.959)
+2020-03-04T08:23:25.583+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:23:25.584+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:23:25.584+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:23:28.499+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:23:28.500+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:23:28.898+0700 INFO Started StartBookApplication in 3.346 seconds (JVM running for 145753.672)
+2020-03-04T08:23:34.839+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:23:34.840+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:23:34.840+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:23:37.659+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:23:37.659+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:23:38.061+0700 INFO Started StartBookApplication in 3.255 seconds (JVM running for 145762.834)
+2020-03-04T08:27:35.800+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:27:35.801+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:27:35.802+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:27:38.878+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:27:38.878+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:27:39.364+0700 INFO Started StartBookApplication in 3.604 seconds (JVM running for 146004.138)
+2020-03-04T08:27:44.294+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:27:44.295+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:27:44.295+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:27:47.132+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:27:47.132+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:27:47.536+0700 INFO Started StartBookApplication in 3.277 seconds (JVM running for 146012.309)
+2020-03-04T08:27:56.690+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:27:56.691+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:27:56.691+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:27:59.502+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:27:59.502+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:27:59.915+0700 INFO Started StartBookApplication in 3.26 seconds (JVM running for 146024.688)
+2020-03-04T08:29:38.039+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:29:38.040+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:29:38.040+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:29:40.995+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:29:40.995+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:30:20.883+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:30:20.884+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:30:20.884+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:30:23.976+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:30:23.976+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:31:41.005+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:31:41.005+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:31:41.005+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:31:43.925+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:31:43.925+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:31:46.617+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:31:46.617+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:31:46.618+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:31:49.562+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:31:49.562+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:31:53.262+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:31:53.263+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:31:53.263+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:31:56.199+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:31:56.199+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:32:11.307+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:32:11.308+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:32:11.308+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:32:14.368+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:32:14.368+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:32:57.489+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:32:57.490+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:32:57.490+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:33:00.417+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:33:00.417+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:36:12.841+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:36:12.842+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:36:12.842+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:36:15.858+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:36:15.858+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:36:29.907+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:36:29.908+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:36:29.908+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:36:33.458+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:36:33.459+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:37:49.778+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:37:49.779+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:37:49.779+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:37:52.971+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:37:52.971+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:37:53.462+0700 INFO Started StartBookApplication in 3.722 seconds (JVM running for 146618.235)
+2020-03-04T08:38:26.605+0700 INFO Starting TestControllerTest on OMS-PC-232 with PID 29104 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:38:26.608+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:38:26.608+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:38:38.824+0700 INFO Started TestControllerTest in 12.567 seconds (JVM running for 15.094)
+2020-03-04T08:39:30.482+0700 INFO Starting TestControllerTest on OMS-PC-232 with PID 40884 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:39:30.485+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:39:30.486+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:39:42.554+0700 INFO Started TestControllerTest in 12.378 seconds (JVM running for 14.37)
+2020-03-04T08:40:28.274+0700 INFO Starting TestControllerTest on OMS-PC-232 with PID 31048 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:40:28.325+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:40:28.326+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:40:42.284+0700 INFO Started TestControllerTest in 14.544 seconds (JVM running for 18.13)
+2020-03-04T08:45:56.213+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:45:56.214+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:45:56.214+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:45:59.245+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:45:59.245+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:45:59.740+0700 INFO Started StartBookApplication in 3.563 seconds (JVM running for 147104.514)
+2020-03-04T08:46:23.296+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:46:23.297+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:46:23.297+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:46:26.321+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:46:26.321+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:46:26.759+0700 INFO Started StartBookApplication in 3.5 seconds (JVM running for 147131.532)
+2020-03-04T08:46:51.448+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:46:51.449+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:46:51.449+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:46:54.415+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T08:46:54.415+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T08:46:54.843+0700 INFO Started StartBookApplication in 3.429 seconds (JVM running for 147159.617)
+2020-03-04T08:48:10.918+0700 INFO Starting TestControllerTest on OMS-PC-232 with PID 2396 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:48:10.920+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:48:10.921+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:48:23.381+0700 INFO Started TestControllerTest in 12.784 seconds (JVM running for 14.97)
+2020-03-04T08:48:49.679+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 37004 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:48:49.682+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:48:49.683+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:49:01.735+0700 INFO Started BookControllerTest in 12.369 seconds (JVM running for 14.48)
+2020-03-04T08:51:23.810+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T08:51:23.871+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T08:54:55.819+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 35996 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:54:55.825+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:54:55.825+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:55:07.803+0700 INFO Started BookControllerTest in 12.623 seconds (JVM running for 14.709)
+2020-03-04T08:58:00.860+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 43064 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:58:00.873+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:58:00.873+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:58:13.192+0700 INFO Started BookControllerTest in 12.626 seconds (JVM running for 14.724)
+2020-03-04T08:59:16.708+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 33256 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T08:59:16.711+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T08:59:16.711+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T08:59:28.526+0700 INFO Started BookControllerTest in 12.08 seconds (JVM running for 14.673)
+2020-03-04T09:01:07.568+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 22708 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:01:07.582+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:01:07.582+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:01:19.586+0700 INFO Started BookControllerTest in 12.309 seconds (JVM running for 14.776)
+2020-03-04T09:01:43.514+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:01:49.857+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:01:55.524+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:02:44.986+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:02:44.987+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:02:44.987+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:02:47.933+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:02:47.933+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:02:48.346+0700 INFO Started StartBookApplication in 3.393 seconds (JVM running for 148113.12)
+2020-03-04T09:03:07.892+0700 INFO Starting TestControllerTest on OMS-PC-232 with PID 4200 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:03:07.895+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:03:07.896+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:03:19.666+0700 INFO Started TestControllerTest in 12.059 seconds (JVM running for 14.362)
+2020-03-04T09:03:34.374+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 42204 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:03:34.377+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:03:34.377+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:03:46.736+0700 INFO Started BookControllerTest in 12.745 seconds (JVM running for 14.754)
+2020-03-04T09:04:01.809+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:04:07.006+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:04:09.254+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:05:12.527+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:05:31.392+0700 INFO Starting TestControllerTest on OMS-PC-232 with PID 34608 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:05:31.396+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:05:31.396+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:05:43.896+0700 INFO Started TestControllerTest in 12.806 seconds (JVM running for 14.731)
+2020-03-04T09:05:55.709+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:06:03.312+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T09:06:31.990+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:06:31.991+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:06:31.991+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:06:34.986+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:06:34.986+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:06:35.462+0700 INFO Started StartBookApplication in 3.506 seconds (JVM running for 148340.235)
+2020-03-04T09:07:32.482+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:07:32.483+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:07:32.483+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:07:35.504+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:07:35.505+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:07:35.955+0700 INFO Started StartBookApplication in 3.508 seconds (JVM running for 148400.728)
+2020-03-04T09:07:41.960+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:07:41.961+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:07:41.961+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:07:44.936+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:07:44.936+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:07:45.442+0700 INFO Started StartBookApplication in 3.535 seconds (JVM running for 148410.216)
+2020-03-04T09:13:49.726+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 21904 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:13:49.729+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:13:49.729+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:14:01.765+0700 INFO Started BookControllerTest in 12.347 seconds (JVM running for 14.578)
+2020-03-04T09:14:49.439+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 30324 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:14:49.443+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:14:49.443+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:15:02.149+0700 INFO Started BookControllerTest in 13.141 seconds (JVM running for 14.973)
+2020-03-04T09:17:20.772+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:17:20.773+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:17:20.773+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:17:23.791+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:17:23.791+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:17:24.370+0700 INFO Started StartBookApplication in 3.635 seconds (JVM running for 148989.143)
+2020-03-04T09:23:24.422+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 21480 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:23:24.428+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:23:24.428+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:23:37.137+0700 INFO Started BookControllerTest in 13.457 seconds (JVM running for 17.001)
+2020-03-04T09:33:52.661+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:33:52.662+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:33:52.662+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:33:55.707+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:33:55.707+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:33:56.202+0700 INFO Started StartBookApplication in 3.575 seconds (JVM running for 149980.976)
+2020-03-04T09:38:36.649+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 47644 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:38:36.652+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:38:36.653+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:38:49.060+0700 INFO Started BookControllerTest in 12.735 seconds (JVM running for 14.854)
+2020-03-04T09:44:13.062+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:44:13.063+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:44:13.063+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:44:15.939+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:44:15.939+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:44:16.341+0700 INFO Started StartBookApplication in 3.314 seconds (JVM running for 150601.114)
+2020-03-04T09:44:24.439+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:44:24.440+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:44:24.440+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:44:27.382+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:44:27.382+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:44:27.914+0700 INFO Started StartBookApplication in 3.506 seconds (JVM running for 150612.687)
+2020-03-04T09:44:31.881+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:44:31.882+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:44:31.882+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:44:34.764+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:44:34.764+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:44:35.283+0700 INFO Started StartBookApplication in 3.435 seconds (JVM running for 150620.057)
+2020-03-04T09:44:38.252+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:44:38.253+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:44:38.253+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:44:41.208+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T09:44:41.208+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T09:44:41.679+0700 INFO Started StartBookApplication in 3.46 seconds (JVM running for 150626.453)
+2020-03-04T09:44:55.634+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 2804 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:44:55.639+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:44:55.639+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:45:09.595+0700 INFO Started BookControllerTest in 14.303 seconds (JVM running for 16.528)
+2020-03-04T09:50:11.766+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 41348 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T09:50:11.769+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T09:50:11.770+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T09:50:29.113+0700 INFO Started BookControllerTest in 17.996 seconds (JVM running for 20.912)
+2020-03-04T09:51:53.303+0700 WARN JWT Token has expired
+2020-03-04T11:21:10.137+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T11:21:32.581+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 35664 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:21:32.584+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:21:32.584+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:21:45.394+0700 INFO Started BookControllerTest in 13.111 seconds (JVM running for 15.66)
+2020-03-04T11:23:52.219+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 40160 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:23:52.223+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:23:52.223+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:24:06.343+0700 INFO Started BookControllerTest in 14.394 seconds (JVM running for 16.287)
+2020-03-04T11:26:43.497+0700 WARN JWT Token has expired
+2020-03-04T11:29:55.365+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 31288 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:29:55.368+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:29:55.369+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:30:07.272+0700 INFO Started BookControllerTest in 12.25 seconds (JVM running for 14.711)
+2020-03-04T11:30:28.318+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:30:28.318+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:30:28.319+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:30:31.664+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:30:31.665+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:30:32.198+0700 INFO Started StartBookApplication in 3.932 seconds (JVM running for 156976.971)
+2020-03-04T11:32:38.237+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:32:38.238+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:32:38.238+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:32:41.392+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:32:41.392+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:32:41.950+0700 INFO Started StartBookApplication in 3.769 seconds (JVM running for 157106.723)
+2020-03-04T11:32:52.061+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:32:52.062+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:32:52.062+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:32:54.991+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:32:54.991+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:32:55.433+0700 INFO Started StartBookApplication in 3.405 seconds (JVM running for 157120.207)
+2020-03-04T11:33:02.542+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:33:02.543+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:33:02.543+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:33:05.758+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:33:05.758+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:33:06.198+0700 INFO Started StartBookApplication in 3.691 seconds (JVM running for 157130.971)
+2020-03-04T11:33:15.846+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 10612 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:33:15.850+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:33:15.850+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:33:27.923+0700 INFO Started BookControllerTest in 12.466 seconds (JVM running for 14.188)
+2020-03-04T11:34:49.590+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 34408 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:34:49.593+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:34:49.593+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:35:01.062+0700 INFO Started BookControllerTest in 11.754 seconds (JVM running for 13.979)
+2020-03-04T11:35:01.928+0700 ERROR Please provide neccessary information
+2020-03-04T11:38:13.716+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 26512 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:38:13.719+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:38:13.719+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:38:25.840+0700 INFO Started BookControllerTest in 12.426 seconds (JVM running for 14.234)
+2020-03-04T11:38:27.659+0700 ERROR Please provide neccessary information
+2020-03-04T11:43:16.063+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:43:16.064+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:43:16.064+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:43:19.097+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:43:19.097+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:43:19.527+0700 INFO Started StartBookApplication in 3.5 seconds (JVM running for 157744.3)
+2020-03-04T11:43:38.230+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 37540 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:43:38.235+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:43:38.235+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:43:52.347+0700 INFO Started BookControllerTest in 14.422 seconds (JVM running for 16.585)
+2020-03-04T11:43:53.218+0700 ERROR Please provide neccessary information
+2020-03-04T11:45:02.527+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:45:02.528+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:45:02.528+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:45:05.627+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:45:05.627+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:45:06.121+0700 INFO Started StartBookApplication in 3.701 seconds (JVM running for 157850.895)
+2020-03-04T11:45:40.232+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:45:40.233+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:45:40.233+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:45:43.225+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:45:43.225+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:45:44.001+0700 INFO Started StartBookApplication in 3.82 seconds (JVM running for 157888.775)
+2020-03-04T11:46:18.302+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:46:18.303+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:46:18.303+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:46:21.429+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:46:21.429+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:46:21.918+0700 INFO Started StartBookApplication in 3.654 seconds (JVM running for 157926.691)
+2020-03-04T11:46:39.784+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 24320 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:46:39.787+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:46:39.788+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:46:52.390+0700 INFO Started BookControllerTest in 12.873 seconds (JVM running for 14.919)
+2020-03-04T11:48:44.726+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:48:44.727+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:48:44.727+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:48:47.789+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T11:48:47.789+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T11:48:48.209+0700 INFO Started StartBookApplication in 3.518 seconds (JVM running for 158072.983)
+2020-03-04T11:48:59.526+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 38232 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T11:48:59.528+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T11:48:59.529+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T11:49:11.127+0700 INFO Started BookControllerTest in 11.924 seconds (JVM running for 13.997)
+2020-03-04T12:52:08.515+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T12:52:08.680+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T13:02:43.128+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 40760 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:02:43.130+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:02:43.131+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:02:56.109+0700 INFO Started BookControllerTest in 13.276 seconds (JVM running for 15.848)
+2020-03-04T13:05:02.473+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T13:05:28.633+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 36536 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:05:28.651+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:05:28.651+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:05:40.935+0700 INFO Started BookControllerTest in 12.589 seconds (JVM running for 14.758)
+2020-03-04T13:06:06.250+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T13:08:22.087+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:08:22.088+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:08:22.088+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:08:25.263+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T13:08:25.263+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T13:08:25.745+0700 INFO Started StartBookApplication in 3.699 seconds (JVM running for 162850.847)
+2020-03-04T13:08:39.074+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 48248 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:08:39.078+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:08:39.079+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:08:51.831+0700 INFO Started BookControllerTest in 13.128 seconds (JVM running for 15.078)
+2020-03-04T13:10:00.834+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 39192 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:10:00.838+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:10:00.838+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:10:12.416+0700 INFO Started BookControllerTest in 11.862 seconds (JVM running for 14.034)
+2020-03-04T13:11:34.862+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 30256 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:11:34.866+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:11:34.867+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:11:47.664+0700 INFO Started BookControllerTest in 13.311 seconds (JVM running for 15.249)
+2020-03-04T13:23:26.788+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:23:26.789+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:23:26.789+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:23:47.386+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:23:47.387+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:23:47.387+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:23:56.420+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:23:56.421+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:23:56.421+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:24:00.283+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:24:00.284+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:24:00.284+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:24:41.464+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:24:41.465+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:24:41.465+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:24:44.539+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T13:24:44.539+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T13:24:44.979+0700 INFO Started StartBookApplication in 3.533 seconds (JVM running for 163830.082)
+2020-03-04T13:24:59.619+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:24:59.620+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:24:59.620+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:25:02.476+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T13:25:02.477+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T13:25:02.952+0700 INFO Started StartBookApplication in 3.369 seconds (JVM running for 163848.054)
+2020-03-04T13:29:06.071+0700 INFO Starting JwtAuthenticationControllerTest on OMS-PC-232 with PID 44684 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T13:29:06.074+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T13:29:06.075+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T13:29:19.637+0700 INFO Started JwtAuthenticationControllerTest in 13.857 seconds (JVM running for 16.132)
+2020-03-04T14:10:24.958+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:10:24.959+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:10:24.959+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:10:28.052+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T14:10:28.052+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T14:10:28.534+0700 INFO Started StartBookApplication in 3.612 seconds (JVM running for 166573.744)
+2020-03-04T14:12:11.197+0700 DEBUG Using default Url: /
+2020-03-04T14:12:11.211+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T14:12:31.943+0700 DEBUG Using default Url: /
+2020-03-04T14:14:09.326+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:14:09.326+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:14:09.327+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:14:12.456+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T14:14:12.456+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T14:14:13.053+0700 INFO Started StartBookApplication in 3.763 seconds (JVM running for 166798.264)
+2020-03-04T14:14:57.713+0700 DEBUG Using default Url: /
+2020-03-04T14:14:59.569+0700 DEBUG Using default Url: /
+2020-03-04T14:15:41.671+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T14:15:46.357+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T14:15:59.908+0700 DEBUG Using default Url: /
+2020-03-04T14:16:55.924+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:16:55.924+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:16:55.925+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:16:58.877+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T14:16:58.877+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T14:16:59.321+0700 INFO Started StartBookApplication in 3.435 seconds (JVM running for 166964.532)
+2020-03-04T14:17:02.319+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:17:02.320+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:17:02.320+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:17:05.639+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T14:17:05.639+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T14:17:06.054+0700 INFO Started StartBookApplication in 3.769 seconds (JVM running for 166971.264)
+2020-03-04T14:21:00.641+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T14:21:05.854+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T14:21:08.346+0700 WARN JWT Token does not begin with Bearer String
+2020-03-04T14:21:29.773+0700 INFO Starting JwtAuthenticationControllerTest on OMS-PC-232 with PID 47844 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:21:29.803+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:21:29.803+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:21:42.104+0700 INFO Started JwtAuthenticationControllerTest in 12.614 seconds (JVM running for 14.632)
+2020-03-04T14:22:07.076+0700 INFO Starting JwtAuthenticationControllerTest on OMS-PC-232 with PID 30824 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:22:07.079+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:22:07.079+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:22:20.136+0700 INFO Started JwtAuthenticationControllerTest in 13.408 seconds (JVM running for 15.846)
+2020-03-04T14:24:51.895+0700 INFO Starting JwtAuthenticationControllerTest on OMS-PC-232 with PID 14828 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:24:51.898+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:24:51.899+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:25:04.640+0700 INFO Started JwtAuthenticationControllerTest in 13.068 seconds (JVM running for 15.359)
+2020-03-04T14:26:25.016+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:26:25.017+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:26:25.017+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:26:27.862+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T14:26:27.863+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T14:26:28.338+0700 INFO Started StartBookApplication in 3.362 seconds (JVM running for 167533.548)
+2020-03-04T14:29:35.392+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:29:35.393+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:29:35.393+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:29:38.441+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T14:29:38.441+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T14:29:38.881+0700 INFO Started StartBookApplication in 3.523 seconds (JVM running for 167724.092)
+2020-03-04T14:35:01.430+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 17400 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:35:01.433+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:35:01.433+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:35:13.664+0700 INFO Started BookControllerTest in 12.502 seconds (JVM running for 14.642)
+2020-03-04T14:36:17.636+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 47028 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T14:36:17.639+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T14:36:17.640+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T14:36:31.703+0700 INFO Started BookControllerTest in 14.379 seconds (JVM running for 16.87)
+2020-03-04T15:04:20.115+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:04:20.115+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:04:20.115+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:04:23.544+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:04:23.544+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:04:24.011+0700 INFO Started StartBookApplication in 3.933 seconds (JVM running for 169809.222)
+2020-03-04T15:19:16.546+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:19:16.547+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:19:16.547+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:19:19.368+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:19:19.368+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:19:19.790+0700 INFO Started StartBookApplication in 3.302 seconds (JVM running for 170705.001)
+2020-03-04T15:20:41.620+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:20:41.621+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:20:41.621+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:20:44.568+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:20:44.569+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:21:05.871+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:21:05.871+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:21:05.871+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:21:08.919+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:21:08.919+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:21:09.325+0700 INFO Started StartBookApplication in 3.485 seconds (JVM running for 170814.536)
+2020-03-04T15:22:50.049+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:22:50.050+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:22:50.050+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:22:52.897+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:22:52.897+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:22:53.331+0700 INFO Started StartBookApplication in 3.316 seconds (JVM running for 170918.542)
+2020-03-04T15:22:59.335+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:22:59.336+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:22:59.336+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:23:02.343+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:23:02.343+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:23:02.755+0700 INFO Started StartBookApplication in 3.454 seconds (JVM running for 170927.965)
+2020-03-04T15:24:59.124+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:24:59.125+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:24:59.125+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:25:01.910+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:25:01.910+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:25:02.354+0700 INFO Started StartBookApplication in 3.278 seconds (JVM running for 171047.565)
+2020-03-04T15:26:43.817+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:26:43.818+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:26:43.818+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:26:47.205+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:26:47.205+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:26:47.794+0700 INFO Started StartBookApplication in 4.012 seconds (JVM running for 171153.005)
+2020-03-04T15:27:14.511+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T15:27:14.512+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T15:27:14.512+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T15:27:17.873+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T15:27:17.873+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T15:27:18.395+0700 INFO Started StartBookApplication in 3.931 seconds (JVM running for 171183.605)
+2020-03-04T18:24:15.905+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:24:15.906+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:24:15.906+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:24:19.445+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:24:19.445+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:24:20.187+0700 INFO Started StartBookApplication in 4.401 seconds (JVM running for 181806.052)
+2020-03-04T18:26:48.612+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:26:48.613+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:26:48.613+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:26:51.585+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:26:51.586+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:26:52.016+0700 INFO Started StartBookApplication in 3.44 seconds (JVM running for 181957.881)
+2020-03-04T18:27:50.956+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:27:50.957+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:27:50.957+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:27:53.906+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:27:53.906+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:27:54.320+0700 INFO Started StartBookApplication in 3.455 seconds (JVM running for 182020.184)
+2020-03-04T18:28:04.491+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:28:04.492+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:28:04.492+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:28:07.437+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:28:07.437+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:28:07.861+0700 INFO Started StartBookApplication in 3.422 seconds (JVM running for 182033.725)
+2020-03-04T18:28:38.648+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:28:38.649+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:28:38.649+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:28:42.107+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:28:42.108+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:28:42.682+0700 INFO Started StartBookApplication in 4.071 seconds (JVM running for 182068.546)
+2020-03-04T18:28:50.833+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:28:50.834+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:28:50.834+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:28:53.898+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:28:53.899+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:28:54.348+0700 INFO Started StartBookApplication in 3.549 seconds (JVM running for 182080.212)
+2020-03-04T18:29:00.311+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:29:00.312+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:29:00.312+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:29:03.463+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:29:03.463+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:29:03.888+0700 INFO Started StartBookApplication in 3.611 seconds (JVM running for 182089.752)
+2020-03-04T18:31:06.788+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:31:06.789+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:31:06.789+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:31:09.642+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:31:09.642+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:31:10.049+0700 INFO Started StartBookApplication in 3.309 seconds (JVM running for 182215.913)
+2020-03-04T18:32:41.717+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:32:41.718+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:32:41.718+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:32:44.728+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:32:44.728+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:32:45.146+0700 INFO Started StartBookApplication in 3.484 seconds (JVM running for 182311.01)
+2020-03-04T18:34:37.727+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:34:37.727+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:34:37.727+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:34:40.714+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:34:40.714+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:34:41.230+0700 INFO Started StartBookApplication in 3.537 seconds (JVM running for 182427.095)
+2020-03-04T18:34:43.356+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:34:43.357+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:34:43.357+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:34:46.466+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:34:46.466+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:34:47.033+0700 INFO Started StartBookApplication in 3.713 seconds (JVM running for 182432.897)
+2020-03-04T18:35:53.522+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:35:53.522+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:35:53.523+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:35:56.280+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:35:56.280+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:35:56.897+0700 INFO Started StartBookApplication in 3.428 seconds (JVM running for 182502.761)
+2020-03-04T18:36:00.779+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:36:00.779+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:36:00.779+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:36:03.421+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:36:03.421+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:36:03.874+0700 INFO Started StartBookApplication in 3.129 seconds (JVM running for 182509.738)
+2020-03-04T18:36:35.937+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:36:35.938+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:36:35.938+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:36:38.750+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:36:38.750+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:36:39.170+0700 INFO Started StartBookApplication in 3.27 seconds (JVM running for 182545.034)
+2020-03-04T18:38:56.557+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:38:56.557+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:38:56.557+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:38:59.442+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:38:59.442+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:38:59.958+0700 INFO Started StartBookApplication in 3.438 seconds (JVM running for 182685.822)
+2020-03-04T18:40:26.552+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:40:26.553+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:40:26.553+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:40:29.920+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:40:29.921+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:40:30.383+0700 INFO Started StartBookApplication in 3.874 seconds (JVM running for 182776.247)
+2020-03-04T18:42:41.177+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:42:41.178+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:42:41.178+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:42:43.815+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:42:43.815+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:42:44.305+0700 INFO Started StartBookApplication in 3.164 seconds (JVM running for 182910.17)
+2020-03-04T18:43:13.468+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:43:13.468+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:43:13.468+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:43:16.582+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:43:16.582+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:43:17.049+0700 INFO Started StartBookApplication in 3.615 seconds (JVM running for 182942.913)
+2020-03-04T18:45:48.362+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 12712 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:45:48.365+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:45:48.365+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:46:01.638+0700 INFO Started BookControllerTest in 13.58 seconds (JVM running for 15.89)
+2020-03-04T18:55:10.121+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 27160 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:55:10.125+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:55:10.126+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:55:23.570+0700 INFO Started BookControllerTest in 13.88 seconds (JVM running for 15.85)
+2020-03-04T18:56:25.248+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 43696 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:56:25.251+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:56:25.252+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:56:38.203+0700 INFO Started BookControllerTest in 13.299 seconds (JVM running for 15.63)
+2020-03-04T18:58:17.101+0700 INFO Starting BookControllerTest on OMS-PC-232 with PID 28680 (started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:58:17.104+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:58:17.104+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:58:31.342+0700 INFO Started BookControllerTest in 14.635 seconds (JVM running for 16.705)
+2020-03-04T18:59:39.806+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:59:39.807+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:59:39.807+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:59:42.652+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:59:42.652+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:59:43.078+0700 INFO Started StartBookApplication in 3.307 seconds (JVM running for 183928.942)
+2020-03-04T18:59:45.960+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:59:45.961+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:59:45.961+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:59:49.004+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:59:49.004+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T18:59:56.858+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T18:59:56.859+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T18:59:56.859+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T18:59:59.809+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T18:59:59.809+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:01:15.932+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T19:01:15.932+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T19:01:15.932+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T19:01:19.004+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T19:01:19.004+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:01:49.656+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T19:01:49.657+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T19:01:49.657+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T19:01:52.726+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T19:01:52.726+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:01:53.204+0700 INFO Started StartBookApplication in 3.581 seconds (JVM running for 184059.069)
+2020-03-04T19:03:39.313+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T19:03:39.313+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T19:03:39.313+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T19:03:42.407+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T19:03:42.407+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:03:43.028+0700 INFO Started StartBookApplication in 3.757 seconds (JVM running for 184168.893)
+2020-03-04T19:06:48.163+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T19:06:48.163+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T19:06:48.164+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T19:06:51.398+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T19:06:51.398+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:06:51.996+0700 INFO Started StartBookApplication in 3.871 seconds (JVM running for 184357.86)
+2020-03-04T19:07:15.771+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T19:07:15.772+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T19:07:15.772+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T19:07:18.810+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T19:07:18.810+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:07:19.272+0700 INFO Started StartBookApplication in 3.536 seconds (JVM running for 184385.136)
+2020-03-04T19:08:41.385+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T19:08:41.386+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T19:08:41.386+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T19:08:44.813+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T19:08:44.813+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:08:45.409+0700 INFO Started StartBookApplication in 4.061 seconds (JVM running for 184471.273)
+2020-03-04T19:08:56.685+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T19:08:56.686+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T19:08:56.686+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T19:08:59.896+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T19:08:59.896+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:09:00.335+0700 INFO Started StartBookApplication in 3.683 seconds (JVM running for 184486.199)
+2020-03-04T19:09:17.800+0700 INFO Starting StartBookApplication on OMS-PC-232 with PID 24020 (C:\Users\User\Documents\spring-boot-workspace\book-shop\target\classes started by User in C:\Users\User\Documents\spring-boot-workspace\book-shop)
+2020-03-04T19:09:17.801+0700 DEBUG Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04T19:09:17.801+0700 INFO No active profile set, falling back to default profiles: default
+2020-03-04T19:09:21.180+0700 DEBUG Filter 'logAndSuppressRequestRejectedExceptionFilter' configured for use
+2020-03-04T19:09:21.180+0700 DEBUG Filter 'jwtRequestFilter' configured for use
+2020-03-04T19:09:21.708+0700 INFO Started StartBookApplication in 3.94 seconds (JVM running for 184507.573)

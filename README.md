@@ -41,3 +41,35 @@
 
 	- Checkout source code
 	- Run project by command: "mvn spring-boot:run"	
+	
+## 5. APIs
+
+	5.1 	 /api/v1/logout
+	5.2 	POST /api/v1/auth
+	5.3 	POST /api/v1/author/{id}
+	5.4 	GET /api/v1/author
+	5.5 	POST /api/v1/author/{id}/vote
+	5.6 	GET /api/v1/vote
+	5.7 	GET /api/v1/book/{id}
+	5.8 	GET /api/v1/book
+	5.9 	PUT /api/v1/book/{id}
+	5.10 	POST /api/v1/book
+	5.11 	POST /api/v1/book/{id}/rate
+	5.12 	DELETE /api/v1/book/{id}
+	5.13	GET /api/v1/book/{id}/rate
+	5.14	GET /api/v1/clear-cache
+	5.15	 /error
+	5.16 	 /api/v1/error
+	5.17 	POST /api/v1/create-data
+	5.18	POST /api/v1/file/upload
+	5.19	GET /api/v1/file/download/{id}
+	5.20 	POST /api/v1/file/uploadMultiple
+	5.21	POST /api/v1/user/regist
+	5.22	GET /api/v1/user	
+	5.23 	PUT /api/v1/user/{id}	
+	5.24	GET /api/v1/user/{id}/following
+	
+## 5. APIs document Postman
+	
+	https://documenter.getpostman.com/view/339456/SzRxXqjF?version=latest
+	

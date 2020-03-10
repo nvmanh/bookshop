@@ -7,6 +7,7 @@ import java.util.List;
 import org.springframework.http.HttpStatus;
 
 import com.manhnv.common.ResponseConst;
+import com.manhnv.config.Translator;
 
 public class JwtResponse<T> implements Serializable {
 	private static final long serialVersionUID = -8091879091924046844L;
@@ -24,7 +25,8 @@ public class JwtResponse<T> implements Serializable {
 	}
 
 	public JwtResponse<T> onSuccess(T data, String path) {
-		this.message = ResponseConst.MESSAGE_200;
+		//this.message = ResponseConst.MESSAGE_200;
+		this.message = Translator.toLocale("MESSAGE_200");
 		this.status = ResponseConst.HTTP_200;
 		this.path = path;
 		this.data = data;
@@ -39,35 +41,38 @@ public class JwtResponse<T> implements Serializable {
 	}
 
 	public JwtResponse<T> onDuplicate(String path) {
-		this.message = ResponseConst.MESSAGE_2000_DUPLICATE;
+		//this.message = ResponseConst.MESSAGE_2000_DUPLICATE;
+		this.message = Translator.toLocale("MESSAGE_2000_DUPLICATE");
 		this.status = ResponseConst.HTTP_2000;
 		this.path = path;
 		return this;
 	}
 
 	public JwtResponse<T> onInternalServerError(String path) {
-		this.message = ResponseConst.MESSAGE_500;
+		//this.message = ResponseConst.MESSAGE_500;
+		this.message = Translator.toLocale("MESSAGE_500");
 		this.status = ResponseConst.HTTP_500;
 		this.path = path;
 		return this;
 	}
 
 	public JwtResponse<T> onUnknownError(String path) {
-		this.message = ResponseConst.MESSAGE_1001;
+		//this.message = ResponseConst.MESSAGE_1001;
+		this.message = Translator.toLocale("MESSAGE_1001");
 		this.status = ResponseConst.HTTP_1001;
 		this.path = path;
 		return this;
 	}
 
 	public JwtResponse<T> onBadRequest(String path) {
-		this.message = HttpStatus.BAD_REQUEST.getReasonPhrase();
+		this.message = Translator.toLocale("BAD_REQUEST");
 		this.status = HttpStatus.BAD_REQUEST.value();
 		this.path = path;
 		return this;
 	}
 
 	public JwtResponse<T> onNotFound(String path) {
-		this.message = HttpStatus.NOT_FOUND.getReasonPhrase();
+		this.message = Translator.toLocale("NOT_FOUND");
 		this.status = HttpStatus.NOT_FOUND.value();
 		this.path = path;
 		return this;

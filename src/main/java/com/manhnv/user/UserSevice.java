@@ -68,13 +68,13 @@ public class UserSevice implements IUserService {
 	}
 
 	@Override
-	public void saveUser(User user) throws Exception {
+	public void saveUser(User user) {
 		user.setPassword(encoder.encode(user.getPassword()));
 		userRepository.save(user);
 	}
 
 	@Override
-	public UserDetail saveUser(UserCreateRequest user) throws Exception {
+	public UserDetail saveUser(UserCreateRequest user) {
 		User mUser = new User();
 		mUser.setName(user.getUsername());
 		mUser.setPassword(encoder.encode(user.getPassword()));
@@ -99,7 +99,7 @@ public class UserSevice implements IUserService {
 	}
 
 	@Override
-	public UserDetail updateInfo(Long id, UserChangeRequest req) throws Exception {
+	public UserDetail updateInfo(Long id, UserChangeRequest req) {
 		if (req == null || id == null || id <= 0)
 			return null;
 		UserDetail u = userDetailRepository.findById(id)

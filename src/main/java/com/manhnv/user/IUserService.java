@@ -13,15 +13,44 @@ import com.manhnv.model.request.UserChangeRequest;
 import com.manhnv.model.request.UserCreateRequest;
 
 public interface IUserService {
+	/**
+	 * 
+	 * @param request
+	 * @return
+	 */
 	Page<UserDTO> findAll(BasePageRequest request);
 
-	void saveUser(User user) throws Exception;
+	/**
+	 * 
+	 * @param user
+	 */
+	void saveUser(User user);
 
-	UserDetail saveUser(UserCreateRequest user) throws Exception;
+	/**
+	 * 
+	 * @param user
+	 * @return
+	 */
+	UserDetail saveUser(UserCreateRequest user);
 
-	UserDetail updateInfo(Long id, UserChangeRequest req) throws Exception;
+	/**
+	 * 
+	 * @param id
+	 * @param req
+	 * @return
+	 */
+	UserDetail updateInfo(Long id, UserChangeRequest req);
 
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 */
 	List<Author> getFollowings(Long id);
-	
+
+	/**
+	 * 
+	 * @param id
+	 */
 	void deleteById(Long id);
 }

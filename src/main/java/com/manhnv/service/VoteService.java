@@ -10,7 +10,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.google.gson.Gson;
 import com.manhnv.common.Const;
 import com.manhnv.entity.Vote;
 import com.manhnv.error.DataInvalidException;
@@ -54,16 +53,10 @@ public class VoteService implements IVoteService {
 		if (request != null) {
 			pageable = PageRequest.of(request.getPageNo(), request.getPageSize());
 		}
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>1");
 		if (request == null || request.inValid()) {
 			return voteRepository.findAll(pageable);
 		}
-		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>2");
-		System.out.println(new Gson().toJson(request));
-
 		if (request.validUserAndAuthor()) {
-//			voteRepository.findVoteByUserIdAndAuthorId(request.getUserId(), request.getAuthorId()).
-			System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>3");
 			Vote v = voteRepository.findVoteByUserIdAndAuthorId(request.getUserId(), request.getAuthorId()).get();
 			return new PageImpl<Vote>(Arrays.asList(v));
 		} else if (request.getUserId() != null && request.getUserId() > 0 && request.getVoted() != null) {

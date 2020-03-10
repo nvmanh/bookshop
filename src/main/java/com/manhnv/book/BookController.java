@@ -41,51 +41,22 @@ public class BookController extends BaseController {
 
 	@GetMapping(value = PathConsts.v1.BOOK)
 	@ResponseBody
-	// @Cacheable
 	JwtResponse<Object> findAll(@RequestBody(required = false) BookRequest req) {
-//		try {
 		return new JwtResponse<Object>().onSuccess(bookService.findAll(req), PathConsts.v1.BOOK);
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			return handleExeption(e, PathConsts.v1.BOOK);
-//		}
 	}
-
-//	@GetMapping(path = PathConsts.v1.BOOK_WITH_AUTHOR)
-//	@ResponseBody
-//	@Cacheable
-//	JwtResponse<Object> findAllBookWithAuthor(@RequestBody BookRequest req) {
-//		try {
-//			return new JwtResponse<Object>().onSuccess(bookService.findBookByAuthor(req), PathConsts.v1.BOOK);
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			return handleExeption(e, PathConsts.v1.BOOK);
-//		}
-//	}
 
 	@PostMapping(path = PathConsts.v1.BOOK_RATE)
 	@ResponseBody
 	JwtResponse<Object> rateBook(@PathVariable("id") Long id, @RequestBody(required = false) BookRateRequest req) {
-//		try {
 		return new JwtResponse<Object>().onSuccess(bookService.rate(id, req), PathConsts.v1.BOOK_RATE);
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//			return handleExeption(e, PathConsts.v1.BOOK_RATE);
-//		}
 	}
 
-	// @GetMapping(path = PathConsts.v1.BOOK_ALL_RATE)
 	@GetMapping(path = PathConsts.v1.BOOK_RATE)
 	@ResponseBody
 	@Cacheable
 	JwtResponse<Object> viewAllRates(@PathVariable("id") Long id,
 			@RequestBody(required = false) BookRatePageRequest request) throws Exception {
-//		try {
 		return new JwtResponse<Object>().onSuccess(bookService.getAllRates(id, request), PathConsts.v1.BOOK_RATE);
-//		} catch (Exception e) {
-//			// e.printStackTrace();
-//			return handleExeption(e, PathConsts.v1.BOOK_RATE);
-//		}
 	}
 
 	// Save

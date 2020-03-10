@@ -26,4 +26,6 @@ public interface IUserRepository extends CrudRepository<User, Integer> {
 
 	User findById(Long id);
 
+	boolean existsByName(String name);
+
 }

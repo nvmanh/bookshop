@@ -32,13 +32,19 @@ public class JwtAuthenticationController {
 	@Autowired
 	private JwtUserDetailsService userDetailsService;
 
+	/**
+	 * 
+	 * @param authenticationRequest
+	 * @return
+	 * @throws Exception
+	 */
 	@RequestMapping(value = PathConsts.v1.AUTH, method = RequestMethod.POST)
 	public ResponseEntity<?> createAuthenticationToken(@RequestBody JwtRequest authenticationRequest) throws Exception {
 		try {
 			authenticate(authenticationRequest.getUsername(), authenticationRequest.getPassword());
-		}catch (Exception e) {
-			return ResponseEntity.ok(new JwtResponse<String>().onFail(ResponseConst.HTTP_403, e.getMessage(),
-					PathConsts.v1.AUTH));
+		} catch (Exception e) {
+			return ResponseEntity
+					.ok(new JwtResponse<String>().onFail(ResponseConst.HTTP_403, e.getMessage(), PathConsts.v1.AUTH));
 		}
 		UserDetails userDetails = userDetailsService.loadUserByUsername(authenticationRequest.getUsername());
 		if (userDetails == null) {
@@ -49,6 +55,12 @@ public class JwtAuthenticationController {
 				.ok(new JwtResponse<String>().onSuccess(jwtTokenUtil.generateToken(userDetails), PathConsts.v1.AUTH));
 	}
 
+	/**
+	 * 
+	 * @param username
+	 * @param password
+	 * @throws Exception
+	 */
 	private void authenticate(String username, String password) throws Exception {
 		try {
 			authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(username, password));
@@ -58,9 +70,16 @@ public class JwtAuthenticationController {
 			throw new Exception("INVALID_CREDENTIALS", e);
 		}
 	}
-	
+
+	/**
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
 	@RequestMapping(value = PathConsts.v1.LOGOUT)
 	public ResponseEntity<?> logout(HttpServletRequest request, HttpServletResponse response) {
-		return ResponseEntity.ok(new JwtResponse<String>().onSuccess(ResponseConst.MESSAGE_LOGOUT_SUCESS, PathConsts.v1.LOGOUT));
+		return ResponseEntity
+				.ok(new JwtResponse<String>().onSuccess(ResponseConst.MESSAGE_LOGOUT_SUCESS, PathConsts.v1.LOGOUT));
 	}
 }

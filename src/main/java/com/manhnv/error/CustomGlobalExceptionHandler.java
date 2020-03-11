@@ -25,6 +25,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 import com.manhnv.file.MyFileNotFoundException;
 import com.manhnv.model.response.JwtResponse;
+import com.manhnv.utils.HttpStatusUtils;
 
 @ControllerAdvice
 @Order(Ordered.LOWEST_PRECEDENCE + 1)
@@ -66,7 +67,7 @@ public class CustomGlobalExceptionHandler extends ResponseEntityExceptionHandler
 		response.setTimestamp(new Timestamp(System.currentTimeMillis()));
 		response.setPath(request.getContextPath());
 		response.setStatus(status.value());
-		response.setError(ex.getMessage());
+		response.setError(HttpStatusUtils.getError(status));
 		// response.setMessage(ex.getMessage());
 		return new ResponseEntity<Object>(response, headers, status);
 	}

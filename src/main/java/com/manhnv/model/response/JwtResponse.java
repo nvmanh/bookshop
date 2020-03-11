@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 
 import com.manhnv.common.ResponseConst;
 import com.manhnv.config.Translator;
+import com.manhnv.utils.HttpStatusUtils;
 
 public class JwtResponse<T> implements Serializable {
 	private static final long serialVersionUID = -8091879091924046844L;
@@ -36,6 +37,7 @@ public class JwtResponse<T> implements Serializable {
 	public JwtResponse<T> onFail(int statusCode, String message, String path) {
 		this.message = message;
 		this.status = statusCode;
+		this.error = HttpStatusUtils.getError(statusCode);
 		this.path = path;
 		return this;
 	}
@@ -44,6 +46,8 @@ public class JwtResponse<T> implements Serializable {
 		//this.message = ResponseConst.MESSAGE_2000_DUPLICATE;
 		this.message = Translator.toLocale("MESSAGE_2000_DUPLICATE");
 		this.status = ResponseConst.HTTP_2000;
+		this.error = HttpStatusUtils.getError(HttpStatus.CONFLICT);
+		//this.error = HttpStatusUtils.getError(HttpStatus.OK);
 		this.path = path;
 		return this;
 	}
@@ -52,6 +56,7 @@ public class JwtResponse<T> implements Serializable {
 		//this.message = ResponseConst.MESSAGE_500;
 		this.message = Translator.toLocale("MESSAGE_500");
 		this.status = ResponseConst.HTTP_500;
+		this.error = HttpStatusUtils.getError(HttpStatus.INTERNAL_SERVER_ERROR);
 		this.path = path;
 		return this;
 	}
@@ -60,6 +65,7 @@ public class JwtResponse<T> implements Serializable {
 		//this.message = ResponseConst.MESSAGE_1001;
 		this.message = Translator.toLocale("MESSAGE_1001");
 		this.status = ResponseConst.HTTP_1001;
+		this.error = HttpStatusUtils.getError(HttpStatus.BAD_REQUEST);
 		this.path = path;
 		return this;
 	}

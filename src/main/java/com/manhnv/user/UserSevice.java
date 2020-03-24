@@ -6,8 +6,6 @@ import java.util.Set;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -32,7 +30,7 @@ import com.manhnv.utils.DTOConverter;
 import com.manhnv.utils.TextUtils;
 
 @Service
-@CacheConfig(cacheNames = { "user" })
+//@CacheConfig(cacheNames = { "user" })
 @Transactional
 public class UserSevice implements IUserService {
 
@@ -58,7 +56,7 @@ public class UserSevice implements IUserService {
 	private BCryptPasswordEncoder encoder;
 
 	@Override
-	@CacheEvict("users")
+	// @CacheEvict("users")
 	public Page<UserDTO> findAll(BasePageRequest request) {
 		Pageable pageable = PageRequest.of(Const.DEFAULT_START_PAGE, Const.DEFAULT_PAGE_SIZE);
 		if (request != null) {
@@ -89,12 +87,12 @@ public class UserSevice implements IUserService {
 		Set<Privilege> normalPrivileges = new HashSet<Privilege>();
 		normalPrivileges.add(read);
 		role.setPrivileges(normalPrivileges);
-		userRepository.save(mUser);
 
 		UserDetail profile = new UserDetail(user);
 		profile.addRole(role);
 		profile.setUser(mUser);
-		userDetailRepository.save(profile);
+		mUser.setProfile(profile);
+		userRepository.save(mUser);
 		return profile;
 	}
 
@@ -138,7 +136,7 @@ public class UserSevice implements IUserService {
 	}
 
 	@Override
-	@CacheEvict("followings")
+	// @CacheEvict("followings")
 	public List<Author> getFollowings(Long id) {
 		List<Author> authors = authorRepository.findAuthorsByFollowers(id);
 		if (authors != null) {

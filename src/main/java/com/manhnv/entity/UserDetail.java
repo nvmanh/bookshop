@@ -16,7 +16,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.validation.constraints.NotEmpty;
 
@@ -39,6 +38,7 @@ public class UserDetail extends BaseCompareEntity {
 	private static final long serialVersionUID = 7151592707460992527L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+//	@GeneratedValue
 	private Long id;
 	@NotEmpty(message = "Please provide your name")
 	private String name;
@@ -64,7 +64,7 @@ public class UserDetail extends BaseCompareEntity {
 	// 1: enable; 2: disable
 	private UserStatus status = UserStatus.ENABLE;
 
-	@OneToMany(cascade = CascadeType.MERGE, fetch = FetchType.LAZY)
+	@ManyToMany(cascade = CascadeType.MERGE)
 	@JoinTable(name = "tbl_user_roles", joinColumns = {
 			@JoinColumn(name = "user_id", referencedColumnName = "id") }, inverseJoinColumns = {
 					@JoinColumn(name = "role_id", referencedColumnName = "id") })
@@ -74,7 +74,7 @@ public class UserDetail extends BaseCompareEntity {
 	private Set<Role> roles;
 
 	@JsonBackReference
-	@OneToOne(fetch = FetchType.LAZY, optional = false)
+	@OneToOne(optional = false)
 	@JoinColumn(name = "user_id", nullable = false)
 	private User user;
 

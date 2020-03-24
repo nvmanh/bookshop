@@ -93,7 +93,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
 				.and()
                 .logout()
-                .logoutUrl("/api/v1/logout")
                 .deleteCookies("JSESSIONID")
                 .logoutSuccessHandler(logoutSuccessHandler());
 		// Add a filter to validate the tokens with every request

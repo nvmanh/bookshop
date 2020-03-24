@@ -342,3 +342,15 @@
 2020-03-11T08:58:59.082+0700 INFO {GET /api/v1/user/{id}/following} com.manhnv.user.UserController#getFollowing(Long)
 2020-03-11T08:58:59.091+0700 INFO Started StartBookApplication in 3.302 seconds (JVM running for 63412.396)
 2020-03-11T08:59:16.378+0700 WARN JWT Token does not begin with Bearer String
+2020-03-11T12:17:55.626+0700 WARN JWT Token does not begin with Bearer String
+2020-03-11T12:17:55.699+0700 WARN JWT Token does not begin with Bearer String
+2020-03-11T14:42:01.410+0700 WARN JWT Token does not begin with Bearer String
+2020-03-11T14:42:01.595+0700 WARN JWT Token does not begin with Bearer String
+2020-03-11T17:20:19.900+0700 WARN JWT Token does not begin with Bearer String
+2020-03-11T17:20:19.976+0700 WARN JWT Token does not begin with Bearer String
+2020-03-12T09:42:05.954+0700 WARN JWT Token does not begin with Bearer String
+2020-03-12T09:42:06.122+0700 WARN JWT Token does not begin with Bearer String
+2020-03-12T14:30:56.137+0700 WARN JWT Token does not begin with Bearer String
+2020-03-12T14:30:56.738+0700 WARN Intercepted RequestBlockedException: Remote Host: 192.168.101.249 User Agent: null Request URL: http://localhost:8080/nice%20ports%2C/Tri%6Eity.txt%2ebak
+2020-03-12T14:30:56.901+0700 WARN JWT Token does not begin with Bearer String
+2020-03-12T14:30:56.922+0700 WARN JWT Token does not begin with Bearer String

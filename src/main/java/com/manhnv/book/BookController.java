@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,8 +42,8 @@ public class BookController extends BaseController {
 
 	@GetMapping(value = PathConsts.v1.BOOK)
 	@ResponseBody
-	JwtResponse<Object> findAll(@RequestBody(required = false) BookRequest req) {
-		return new JwtResponse<Object>().onSuccess(bookService.findAll(req), PathConsts.v1.BOOK);
+	ResponseEntity<?> findAll(@RequestBody(required = false) BookRequest req) {
+		return ResponseEntity.ok(new JwtResponse<Object>().onSuccess(bookService.findAll(req), PathConsts.v1.BOOK));
 	}
 
 	@PostMapping(path = PathConsts.v1.BOOK_RATE)

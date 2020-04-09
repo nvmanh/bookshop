@@ -1,6 +1,7 @@
 package com.manhnv.book;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -25,8 +26,8 @@ public class AuthorController extends BaseController {
 
 	@GetMapping(path = PathConsts.v1.AUTHOR)
 	@ResponseBody
-	JwtResponse<Object> findAll(@RequestBody(required = false) BasePageRequest request) {
-		return new JwtResponse<Object>().onSuccess(authorService.findAll(request), PathConsts.v1.AUTHOR);
+	ResponseEntity<?> findAll(@RequestBody(required = false) BasePageRequest request) {
+		return ResponseEntity.ok(new JwtResponse<Object>().onSuccess(authorService.findAll(request), PathConsts.v1.AUTHOR));
 	}
 
 	@PostMapping(path = PathConsts.v1.AUTHOR_DETAIL)

@@ -3,6 +3,7 @@ package com.manhnv.user;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,14 +32,20 @@ public class UserController extends BaseController {
 	@Autowired(required = true)
 	private UserSevice userService;
 
+//	@GetMapping(value = PathConsts.v1.USER)
+//	@ResponseBody
+//	public JwtResponse<Object> users(@RequestBody(required = false) BasePageRequest request) {
+//		return new JwtResponse<Object>().onSuccess(userService.findAll(request), PathConsts.v1.USER);
+//	}
+	
 	@GetMapping(value = PathConsts.v1.USER)
 	@ResponseBody
-	public JwtResponse<Object> users(@RequestBody(required = false) BasePageRequest request) {
-		return new JwtResponse<Object>().onSuccess(userService.findAll(request), PathConsts.v1.USER);
+	public ResponseEntity<?> users(@RequestBody(required = false) BasePageRequest request) {
+		return ResponseEntity.ok(new JwtResponse<Object>().onSuccess(userService.findAll(request), PathConsts.v1.USER));
 	}
 
 	@RequestMapping(value = PathConsts.v1.USER_REGIST, method = RequestMethod.POST)
-	public @ResponseBody JwtResponse<Object> regist(@Valid @RequestBody(required = false) UserCreateRequest jwtUser)
+	public @ResponseBody ResponseEntity<?> regist(@Valid @RequestBody(required = false) UserCreateRequest jwtUser)
 			throws Exception {
 		UserDetail u = userService.saveUser(jwtUser);
 		JwtResponse<Object> response = new JwtResponse<Object>();
@@ -51,7 +58,7 @@ public class UserController extends BaseController {
 		}
 		response.setData(u);
 		response.setPath(PathConsts.v1.USER_REGIST);
-		return response;
+		return ResponseEntity.ok(response);
 	}
 
 	@RequestMapping(value = PathConsts.v1.USER_UPDATE, method = RequestMethod.PUT)

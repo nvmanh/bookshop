@@ -31,7 +31,7 @@ import com.manhnv.model.response.JwtResponse;
 @RestController
 @Validated
 //@RequestMapping(value = PathConsts.BOOK)
-@CacheConfig(cacheNames = { "book" })
+//@CacheConfig(cacheNames = { "book" })
 public class BookController extends BaseController {
 
 	@Autowired

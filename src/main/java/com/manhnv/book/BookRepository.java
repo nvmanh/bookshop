@@ -33,12 +33,12 @@ public interface BookRepository extends JpaRepository<Book, Long> {
 	@Query("select b from tbl_book b where b.status = :status")
 	Page<Book> findAllByStatus(@Param("status") Status status, Pageable pageable);
 	
-	@Query("select b from tbl_book b where b.isNew = 1")
+	@Query("select b from tbl_book b where b.isNew = 1 LIMIT 10")
 	List<Book> findNewBooks();
 	
-	@Query("select b from tbl_book b where b.isMostPopular = 1")
+	@Query("select b from tbl_book b where b.isMostPopular = 1 LIMIT 10")
 	List<Book> findMostPopularBooks(); 
 	
-	@Query("select b from tbl_book b where b.isBestSeller = 1")
+	@Query("select b from tbl_book b where b.isBestSeller = 1 LIMIT 10")
 	List<Book> findBestSellerBooks();
 }

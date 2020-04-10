@@ -142,40 +142,52 @@ public class TestController {
 		bookRepository.save(book2);
 		Book book = new Book("The Hunger Games (The Hunger Games, #1)", suzunne, new BigDecimal(10003.5),
 				Status.DELETED);
+		book.setNew(true);
 		book.setCover("https://i.pinimg.com/originals/97/88/22/978822885b33114fd721626c6396a6c4.png");
 		bookRepository.save(book);
 		book = new Book("Catching Fire (The Hunger Games, #2)", suzunne, new BigDecimal(10003.5), Status.OUTSTOCK);
 		book.setCover("https://image.phimmoi.net/film/2805/poster.medium.jpg");
+		book.setNew(true);
 		bookRepository.save(book);
 		book = new Book("Harry Potter Series Box Set (Harry Potter, #1-7)", rowling, new BigDecimal(10003.5),
 				Status.REMOVED);
 		book.setCover("https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg");
 		bookRepository.save(book);
+		book.setMostPopular(true);
 		book = new Book("Mockingjay (The Hunger Games, #3)", suzunne, new BigDecimal(10003.5));
 		book.setCover(
 				"https://kbimages1-a.akamaihd.net/0b5c9521-159f-4500-b937-c9688bbcbe3d/1200/1200/False/mockingjay-the-final-book-of-the-hunger-games.jpg");
+		book.setMostPopular(true);
 		bookRepository.save(book);
 		book = new Book("Harry Potter and the Sorcerer's Stone (Harry Potter, #1)", rowling, new BigDecimal(10003.5));
 		book.setCover("https://m.media-amazon.com/images/I/41lnLrvBnML.jpg");
+		book.setMostPopular(true);
 		bookRepository.save(book);
 		book = new Book("Twilight (Twilight, #1)", meyer, new BigDecimal(10003.5));
 		book.setCover("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361039443l/41865.jpg");
+		book.setMostPopular(true);
 		bookRepository.save(book);
 		book = new Book("To Kill a Mockingbird (To Kill a Mockingbird, #1)", lee, new BigDecimal(10003.5));
 		book.setCover(
 				"https://www.kingstongrand.ca/sites/kingstongrand.ca/files/styles/large/public/img/event/hero/DominoKillAMockingBird.jpg?itok=XmsXANi0");
+		book.setMostPopular(true);
 		bookRepository.save(book);
 		book = new Book("Pride and Prejudice", austeen, new BigDecimal(10003.5));
 		book.setCover("https://m.media-amazon.com/images/M/MV5BMTA1NDQ3NTcyOTNeQTJeQWpwZ15BbWU3MDA0MzA4MzE@._V1_.jpg");
+		book.setMostPopular(true);
 		bookRepository.save(book);
 		book = new Book("The Hobbit, or There and Back Again", tolken, new BigDecimal(10003.5));
 		book.setCover("https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546071216l/5907.jpg");
+		book.setBestSeller(true);
 		bookRepository.save(book);
 		book = new Book("Breaking Dawn (Twilight, #4)", meyer, new BigDecimal(10003.5));
 		book.setCover("https://images-na.ssl-images-amazon.com/images/I/51DUJ9xNG0L._SX307_BO1,204,203,200_.jpg");
+		book.setBestSeller(true);
 		bookRepository.save(book);
 		book = new Book("The Book Thief", zusak, new BigDecimal(10003.5));
+		book.setBestSeller(true);
 		book.setCover("https://images-na.ssl-images-amazon.com/images/I/9123eop9gIL.jpg");
+		book.setBestSeller(true);
 		bookRepository.save(book);
 		book = new Book("Divergent (Divergent, #1)", roth, new BigDecimal(10003.5));
 		book.setCover("https://images-na.ssl-images-amazon.com/images/I/51x%2Bv3WfFNL.jpg");

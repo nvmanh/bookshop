@@ -9,8 +9,8 @@ public class PathConsts {
 	// end basic authentication user
 
 	// start role
-	//private static final String BASIC_USER_ROLE = "USER";
-	//private static final String BASIC_ADMIN_ROLE = "ADMIN";
+	// private static final String BASIC_USER_ROLE = "USER";
+	// private static final String BASIC_ADMIN_ROLE = "ADMIN";
 	// end role
 
 	// start authenticate
@@ -42,6 +42,9 @@ public class PathConsts {
 	private static final String BOOK_RATE = "/book/{id}/rate";
 	private static final String BOOK_ALL_RATE = "/book/{id}/all-rate";
 	private static final String BOOK_WITH_AUTHOR = "/book/with-author";
+	private static final String BOOK_NEW = "/book/newest";
+	private static final String BOOK_POPULAR = "/book/popular";
+	private static final String BOOK_BEST_SELLER = "/book/bestseller";
 	// end book API
 
 	// start author API
@@ -92,6 +95,9 @@ public class PathConsts {
 		public static final String BOOK_RATE = V1 + PathConsts.BOOK_RATE;
 		public static final String BOOK_ALL_RATE = V1 + PathConsts.BOOK_ALL_RATE;
 		public static final String BOOK_WITH_AUTHOR = V1 + PathConsts.BOOK_WITH_AUTHOR;
+		public static final String BOOK_NEW = V1 + PathConsts.BOOK_NEW;
+		public static final String BOOK_POPULAR = V1 + PathConsts.BOOK_POPULAR;
+		public static final String BOOK_BEST_SELLER = V1 + PathConsts.BOOK_BEST_SELLER;
 		// end book API
 
 		// start author API
@@ -110,9 +116,9 @@ public class PathConsts {
 		public static final String API_ERROR = V1 + PathConsts.API_ERROR;
 
 		public static final String CLEAR_CACHE = V1 + "/clear-cache";
-		
+
 		public static final String CREATE_SAMPLE = V1 + PathConsts.CREATE_SAMPLE;
-		
+
 		public static final String CURRENT_LANGUAGE = V1 + PathConsts.CURRENT_LANGUAGE;
 	}
 }

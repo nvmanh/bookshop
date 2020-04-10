@@ -1,5 +1,7 @@
 package com.manhnv.book;
 
+import java.util.List;
+
 import org.springframework.data.domain.Page;
 
 import com.manhnv.entity.Author;
@@ -93,4 +95,22 @@ public interface IBookService {
 	 * @param id
 	 */
 	public void deleteBook(Long id);
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public List<Book> getNewBooks();
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public List<Book> getBestSellerBooks();
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public List<Book> getMostPopularBooks();
 }

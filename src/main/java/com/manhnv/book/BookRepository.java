@@ -1,5 +1,6 @@
 package com.manhnv.book;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.domain.Page;
@@ -31,4 +32,13 @@ public interface BookRepository extends JpaRepository<Book, Long> {
 
 	@Query("select b from tbl_book b where b.status = :status")
 	Page<Book> findAllByStatus(@Param("status") Status status, Pageable pageable);
+	
+	@Query("select b from tbl_book b where b.isNew = 1")
+	List<Book> findNewBooks();
+	
+	@Query("select b from tbl_book b where b.isMostPopular = 1")
+	List<Book> findMostPopularBooks(); 
+	
+	@Query("select b from tbl_book b where b.isBestSeller = 1")
+	List<Book> findBestSellerBooks();
 }

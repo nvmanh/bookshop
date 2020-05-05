@@ -58,6 +58,15 @@ public class Book extends BaseCompareEntity {
 
 	@Column(name = "published_date")
 	private String publishedDate;
+	
+	@Column(name = "is_new")
+	private boolean isNew;
+	
+	@Column(name = "is_best_seller")
+	private boolean isBestSeller;
+	
+	@Column(name = "is_most_popular")
+	private boolean isMostPopular;
 
 	@Enumerated(EnumType.STRING)
 	private Status status = Status.INSTOCK;
@@ -212,5 +221,37 @@ public class Book extends BaseCompareEntity {
 
 	public void setStatus(Status status) {
 		this.status = status;
+	}
+
+	public boolean isNew() {
+		return isNew;
+	}
+
+	public void setNew(boolean isNew) {
+		this.isNew = isNew;
+	}
+
+	public boolean isBestSeller() {
+		return isBestSeller;
+	}
+
+	public void setBestSeller(boolean isBestSeller) {
+		this.isBestSeller = isBestSeller;
+	}
+
+	public boolean isMostPopular() {
+		return isMostPopular;
+	}
+
+	public void setMostPopular(boolean isMostPopular) {
+		this.isMostPopular = isMostPopular;
+	}
+
+	public List<BookRate> getBookRates() {
+		return bookRates;
+	}
+
+	public void setBookRates(List<BookRate> bookRates) {
+		this.bookRates = bookRates;
 	}
 }

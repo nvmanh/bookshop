@@ -1,5 +1,7 @@
 package com.manhnv.book;
 
+import java.util.List;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
@@ -192,5 +194,20 @@ public class BookService implements IBookService {
 	@Override
 	public void deleteBook(Long id) {
 		bookRepository.deleteById(id);
+	}
+
+	@Override
+	public List<Book> getNewBooks() {
+		return bookRepository.findNewBooks();
+	}
+
+	@Override
+	public List<Book> getBestSellerBooks() {
+		return bookRepository.findBestSellerBooks();
+	}
+
+	@Override
+	public List<Book> getMostPopularBooks() {
+		return bookRepository.findMostPopularBooks();
 	}
 }

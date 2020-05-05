@@ -4,9 +4,9 @@ import javax.validation.Valid;
 import javax.validation.constraints.Min;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,7 +30,7 @@ import com.manhnv.model.response.JwtResponse;
 @RestController
 @Validated
 //@RequestMapping(value = PathConsts.BOOK)
-@CacheConfig(cacheNames = { "book" })
+//@CacheConfig(cacheNames = { "book" })
 public class BookController extends BaseController {
 
 	@Autowired
@@ -41,8 +41,8 @@ public class BookController extends BaseController {
 
 	@GetMapping(value = PathConsts.v1.BOOK)
 	@ResponseBody
-	JwtResponse<Object> findAll(@RequestBody(required = false) BookRequest req) {
-		return new JwtResponse<Object>().onSuccess(bookService.findAll(req), PathConsts.v1.BOOK);
+	ResponseEntity<?> findAll(@RequestBody(required = false) BookRequest req) {
+		return ResponseEntity.ok(new JwtResponse<Object>().onSuccess(bookService.findAll(req), PathConsts.v1.BOOK));
 	}
 
 	@PostMapping(path = PathConsts.v1.BOOK_RATE)
@@ -82,5 +82,26 @@ public class BookController extends BaseController {
 	JwtResponse<Object> deleteBook(@PathVariable Long id) {
 		repository.deleteById(id);
 		return new JwtResponse<Object>().onSuccess(ResponseConst.DELETE_SUCCESSFUL, PathConsts.v1.BOOK_DETAIL);
+	}
+
+	@GetMapping(value = PathConsts.v1.BOOK_NEW)
+	@ResponseBody
+	ResponseEntity<?> findNewestBooks() {
+		return ResponseEntity
+				.ok(new JwtResponse<Object>().onSuccess(bookService.getNewBooks(), PathConsts.v1.BOOK_NEW));
+	}
+
+	@GetMapping(value = PathConsts.v1.BOOK_BEST_SELLER)
+	@ResponseBody
+	ResponseEntity<?> findBestSellerBooks() {
+		return ResponseEntity.ok(
+				new JwtResponse<Object>().onSuccess(bookService.getBestSellerBooks(), PathConsts.v1.BOOK_BEST_SELLER));
+	}
+
+	@GetMapping(value = PathConsts.v1.BOOK_POPULAR)
+	@ResponseBody
+	ResponseEntity<?> findMostPopularBooks() {
+		return ResponseEntity
+				.ok(new JwtResponse<Object>().onSuccess(bookService.getMostPopularBooks(), PathConsts.v1.BOOK_POPULAR));
 	}
 }

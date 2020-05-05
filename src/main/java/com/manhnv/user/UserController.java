@@ -4,8 +4,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,7 +25,7 @@ import com.manhnv.model.response.JwtResponse;
 
 @RestController
 @Validated
-@CrossOrigin
+//@CrossOrigin
 //@RequestMapping(value = PathConsts.v1.USER)
 public class UserController extends BaseController {
 
@@ -34,14 +34,20 @@ public class UserController extends BaseController {
 	
 	
 
+//	@GetMapping(value = PathConsts.v1.USER)
+//	@ResponseBody
+//	public JwtResponse<Object> users(@RequestBody(required = false) BasePageRequest request) {
+//		return new JwtResponse<Object>().onSuccess(userService.findAll(request), PathConsts.v1.USER);
+//	}
+	
 	@GetMapping(value = PathConsts.v1.USER)
 	@ResponseBody
-	public JwtResponse<Object> users(@RequestBody(required = false) BasePageRequest request) {
-		return new JwtResponse<Object>().onSuccess(userService.findAll(request), PathConsts.v1.USER);
+	public ResponseEntity<?> users(@RequestBody(required = false) BasePageRequest request) {
+		return ResponseEntity.ok(new JwtResponse<Object>().onSuccess(userService.findAll(request), PathConsts.v1.USER));
 	}
 
 	@RequestMapping(value = PathConsts.v1.USER_REGIST, method = RequestMethod.POST)
-	public @ResponseBody JwtResponse<Object> regist(@Valid @RequestBody(required = false) UserCreateRequest jwtUser)
+	public @ResponseBody ResponseEntity<?> regist(@Valid @RequestBody(required = false) UserCreateRequest jwtUser)
 			throws Exception {
 		UserDetail u = userService.saveUser(jwtUser);
 		JwtResponse<Object> response = new JwtResponse<Object>();
@@ -54,7 +60,7 @@ public class UserController extends BaseController {
 		}
 		response.setData(u);
 		response.setPath(PathConsts.v1.USER_REGIST);
-		return response;
+		return ResponseEntity.ok(response);
 	}
 
 	@GetMapping(value = PathConsts.v1.USER_UPDATE)

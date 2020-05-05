@@ -4,10 +4,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -17,6 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.manhnv.book.AuthorRepository;
 import com.manhnv.common.Const;
+import com.manhnv.config.JwtTokenUtil;
 import com.manhnv.entity.Author;
 import com.manhnv.entity.Privilege;
 import com.manhnv.entity.Role;
@@ -29,10 +30,11 @@ import com.manhnv.model.request.BasePageRequest;
 import com.manhnv.model.request.UserChangeRequest;
 import com.manhnv.model.request.UserCreateRequest;
 import com.manhnv.utils.DTOConverter;
+import com.manhnv.utils.RequestUtils;
 import com.manhnv.utils.TextUtils;
 
 @Service
-@CacheConfig(cacheNames = { "user" })
+//@CacheConfig(cacheNames = { "user" })
 @Transactional
 public class UserSevice implements IUserService {
 
@@ -57,8 +59,11 @@ public class UserSevice implements IUserService {
 	@Autowired
 	private BCryptPasswordEncoder encoder;
 
+	@Autowired
+	private JwtTokenUtil jwtTokenUtil;
+
 	@Override
-	@CacheEvict("users")
+	// @CacheEvict("users")
 	public Page<UserDTO> findAll(BasePageRequest request) {
 		Pageable pageable = PageRequest.of(Const.DEFAULT_START_PAGE, Const.DEFAULT_PAGE_SIZE);
 		if (request != null) {
@@ -89,12 +94,12 @@ public class UserSevice implements IUserService {
 		Set<Privilege> normalPrivileges = new HashSet<Privilege>();
 		normalPrivileges.add(read);
 		role.setPrivileges(normalPrivileges);
-		userRepository.save(mUser);
 
 		UserDetail profile = new UserDetail(user);
 		profile.addRole(role);
 		profile.setUser(mUser);
-		userDetailRepository.save(profile);
+		mUser.setProfile(profile);
+		userRepository.save(mUser);
 		return profile;
 	}
 
@@ -138,7 +143,7 @@ public class UserSevice implements IUserService {
 	}
 
 	@Override
-	@CacheEvict("followings")
+	// @CacheEvict("followings")
 	public List<Author> getFollowings(Long id) {
 		List<Author> authors = authorRepository.findAuthorsByFollowers(id);
 		if (authors != null) {
@@ -150,5 +155,22 @@ public class UserSevice implements IUserService {
 	@Override
 	public void deleteById(Long id) {
 		userRepository.deleteById(id);
+	}
+
+	@Override
+	public UserDetail getUserInfo(Long id) {
+		if (id == null || id <= 0 || !userRepository.existsById(id))
+			return null;
+		return userDetailRepository.findUserDetailByUserId(id);
+	}
+
+	@Override
+	public UserDetail getUserInfo(HttpServletRequest request) {
+		String[] data = RequestUtils.getUserNameFromRequestToken(request, null, jwtTokenUtil);
+		String username = data[0];
+		if (TextUtils.isEmpty(username) || !userRepository.existsByName(username))
+			return null;
+		User user = userRepository.findByName(username);
+		return userDetailRepository.findUserDetailByUserId(user.getId());
 	}
 }

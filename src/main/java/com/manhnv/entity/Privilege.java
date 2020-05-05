@@ -1,6 +1,6 @@
 package com.manhnv.entity;
 
-import java.util.Collection;
+import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -24,10 +24,10 @@ public class Privilege {
 	private String name;
 
 	private int status = 1;
-
+	
 	@ManyToMany(mappedBy = "privileges")
 	@JsonBackReference
-	private Collection<Role> roles;
+    private Set<Role> roles;
 
 	public Privilege() {
 		super();
@@ -53,16 +53,16 @@ public class Privilege {
 		this.name = name;
 	}
 
-	public Collection<Role> getRoles() {
+	public int getStatus() {
+		return status;
+	}
+
+	public Set<Role> getRoles() {
 		return roles;
 	}
 
-	public void setRoles(Collection<Role> roles) {
+	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
-	}
-
-	public int getStatus() {
-		return status;
 	}
 
 	public void setStatus(int status) {

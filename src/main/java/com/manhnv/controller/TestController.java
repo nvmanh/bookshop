@@ -31,7 +31,6 @@ import com.manhnv.model.response.JwtResponse;
 import com.manhnv.service.VoteService;
 import com.manhnv.user.IPrivilegeRepository;
 import com.manhnv.user.IRoleRepository;
-import com.manhnv.user.IUserDetailRepository;
 import com.manhnv.user.IUserRepository;
 
 @RestController
@@ -45,9 +44,6 @@ public class TestController {
 
 	@Autowired
 	private IPrivilegeRepository privilegeRepository;
-
-	@Autowired
-	private IUserDetailRepository userDetailRepository;
 
 	@Autowired
 	private BookRepository bookRepository;
@@ -94,7 +90,6 @@ public class TestController {
 		User user = new User();
 		user.setName("admin");
 		user.setPassword(passwordEncoder.encode("Aa@123456"));
-		userRepository.save(user);
 		// add user profile
 		UserDetail detail = new UserDetail();
 		detail.setAddress1("147 Hoang Quoc Viet, Cau Giay, Ha Noi");
@@ -102,9 +97,10 @@ public class TestController {
 		detail.setFullName("Nguyen Viet Manh");
 		detail.setName("admin");
 		detail.setPhone1("0944014295");
-		detail.setUser(user);
 		detail.addRole(adminRole);
-		userDetailRepository.save(detail);
+		detail.setUser(user);
+		user.setProfile(detail);
+		userRepository.save(user);
 		// author
 		Author jack = new Author("Jack London");
 		jack.addFollowers(detail);

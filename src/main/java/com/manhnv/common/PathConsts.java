@@ -20,6 +20,7 @@ public class PathConsts {
 	// start user API
 	private static final String LOGOUT = "/logout";
 	private static final String USER = "/user";
+	private static final String USER_DETAIL = "/me";
 	private static final String USER_REGIST = "/user/regist";
 	// view all rated event
 	private static final String USER_RATED = "/user/{id}/rate";
@@ -70,6 +71,7 @@ public class PathConsts {
 		// start user API
 		public static final String LOGOUT = V1 + PathConsts.LOGOUT;
 		public static final String USER = V1 + PathConsts.USER;
+		public static final String USER_PROFILE = V1 + PathConsts.USER_DETAIL;
 		public static final String USER_REGIST = V1 + PathConsts.USER_REGIST;
 		// view all rated event
 		public static final String USER_RATED = V1 + PathConsts.USER_RATED;

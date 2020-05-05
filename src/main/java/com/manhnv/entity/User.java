@@ -20,13 +20,13 @@ public class User extends BaseCompareEntity {
 	 */
 	private static final long serialVersionUID = -841251738925884441L;
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	private String password;
 
 	@JsonManagedReference
-	@OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "user")
+	@OneToOne(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
 	private UserDetail profile;
 
 	public User() {
@@ -62,4 +62,13 @@ public class User extends BaseCompareEntity {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+	public UserDetail getProfile() {
+		return profile;
+	}
+
+	public void setProfile(UserDetail profile) {
+		this.profile = profile;
+	}
+
 }

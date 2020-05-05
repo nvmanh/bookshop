@@ -1,5 +1,6 @@
 package com.manhnv.user;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,8 @@ public class UserController extends BaseController {
 
 	@Autowired(required = true)
 	private UserSevice userService;
+	
+	
 
 	@GetMapping(value = PathConsts.v1.USER)
 	@ResponseBody
@@ -54,6 +57,20 @@ public class UserController extends BaseController {
 		return response;
 	}
 
+	@GetMapping(value = PathConsts.v1.USER_UPDATE)
+	public @ResponseBody JwtResponse<Object> getUserDetail(@PathVariable("id") Long id) {
+		if (id <= 0) {
+			return new JwtResponse<Object>().onFail(ResponseConst.HTTP_503, ResponseConst.MESSAGE_503,
+					PathConsts.v1.USER);
+		}
+		UserDetail u = userService.getUserInfo(id);
+		if (u == null) {
+			return new JwtResponse<Object>().onFail(ResponseConst.HTTP_404, ResponseConst.MESSAGE_404_USER,
+					PathConsts.v1.USER_UPDATE);
+		}
+		return new JwtResponse<Object>().onSuccess(u, PathConsts.v1.USER_UPDATE);
+	}
+
 	@RequestMapping(value = PathConsts.v1.USER_UPDATE, method = RequestMethod.PUT)
 	public @ResponseBody JwtResponse<Object> updateUserInfo(@PathVariable("id") Long id,
 			@Valid @RequestBody UserChangeRequest req) throws Exception {
@@ -64,7 +81,7 @@ public class UserController extends BaseController {
 		UserDetail u = userService.updateInfo(id, req);
 		if (u == null) {
 			return new JwtResponse<Object>().onFail(ResponseConst.HTTP_404, ResponseConst.MESSAGE_404_USER,
-					PathConsts.v1.USER);
+					PathConsts.v1.USER_UPDATE);
 		}
 		return new JwtResponse<Object>().onSuccess(u, PathConsts.v1.USER);
 	}
@@ -76,5 +93,15 @@ public class UserController extends BaseController {
 					PathConsts.v1.USER_FOLLOWING);
 		}
 		return new JwtResponse<Object>().onSuccess(userService.getFollowings(id), PathConsts.v1.USER_FOLLOWING);
+	}
+	
+	@GetMapping(value = PathConsts.v1.USER_PROFILE)
+	public @ResponseBody JwtResponse<Object> findUser(HttpServletRequest request){
+		UserDetail u = userService.getUserInfo(request);
+		if (u == null) {
+			return new JwtResponse<Object>().onFail(ResponseConst.HTTP_404, ResponseConst.MESSAGE_404_USER,
+					PathConsts.v1.USER_PROFILE);
+		}
+		return new JwtResponse<Object>().onSuccess(u, PathConsts.v1.USER_PROFILE);
 	}
 }

@@ -2,6 +2,8 @@ package com.manhnv.user;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.data.domain.Page;
 
 import com.manhnv.entity.Author;
@@ -53,4 +55,18 @@ public interface IUserService {
 	 * @param id
 	 */
 	void deleteById(Long id);
+
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 */
+	UserDetail getUserInfo(Long id);
+	
+	/**
+	 * 
+	 * @param request
+	 * @return
+	 */
+	UserDetail getUserInfo(HttpServletRequest request);
 }

@@ -2,6 +2,8 @@ package com.manhnv.entity;
 
 import java.util.Set;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -19,20 +21,20 @@ import com.fasterxml.jackson.annotation.JsonUnwrapped;
 @Table(name = "tbl_role")
 public class Role {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
-
+	@Column(nullable = false, unique = true)
 	private String name;
 
-	@ManyToMany(mappedBy = "roles")
 	@JsonUnwrapped
 	@JsonBackReference
+	@ManyToMany(mappedBy = "roles")
 	private Set<UserDetail> users;
 
 	@JsonManagedReference
-	@ManyToMany
+	@ManyToMany(cascade = CascadeType.MERGE)
 	@JoinTable(name = "tbl_roles_privileges", joinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "privilege_id", referencedColumnName = "id"))
-	private Set<Privilege> privileges;
+	private Set<Privilege> privileges;// privileges
 
 	public Role() {
 		super();

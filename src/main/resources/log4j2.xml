@@ -2,7 +2,7 @@
 <Configuration status="WARN" monitorInterval="3000"><!-- 30 -->
     <Properties>
         <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n</Property>
-        <Property name="APP_LOG_ROOT">C:/Users/User/Documents/spring-boot-workspace/book-shop/public/logs</Property>
+        <Property name="APP_LOG_ROOT">D:/Softwares/workspace/bookshop/public/logs</Property>
     </Properties>
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT" follow="true">
